@@ -67,3 +67,7 @@ for t = [-numHarmonics:-1, 1:numHarmonics]
         index = index + 1;
 end
 
+
+
+%Plot
+plottingCircles(termStorage,numberOfNodes,numHarmonics);
