@@ -1,7 +1,7 @@
 function [Row,Col,distanceColumns] = findConnection(distanceColumns,Current,rowStorage)
 
 [distanceSortedRows, Col] = sort(distanceColumns,2); %Sort the distance matrix from smallest to biggest
-
+disp('why');
 currentMinimun = distanceSortedRows(size(distanceSortedRows,1),1);;
 [allTimeMin,Row] = sort(distanceSortedRows(:,1));
 if (currentMinimun <= allTimeMin(1))
